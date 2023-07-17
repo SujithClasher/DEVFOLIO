@@ -1,0 +1,241 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRASHIFY-Cash Your Trash</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+<body>
+    
+    
+<!-- header section starts  -->
+
+<header>
+
+<a href="index.html" class="logo"><i class="fas fa-seedling"></i> Trashify</a>
+
+<nav class="navbar">
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="sub.html">Subscription</a></li>
+        <li><a href="#contact">Contact</a></li>
+        
+    </ul>
+</nav>
+
+<div class="menu-toggle">
+    <i class="fas fa-bars nav-toggle"></i>
+  </div>
+  
+
+
+
+</header>
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+<div class="content">
+
+    <h1>"Cash Your Trash"</h1>
+    <p>It's very painful to get rid of obesity. Inventor, those pains of theirs are convenient for us. From, indeed. Him, the chosen one?</p>
+    <a href="video1.mp4"><button class="btn">Learn More</button></a>
+
+</div>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+<h1 class="heading"> <i class="fas fa-quote-left"></i> About us <i class="fas fa-quote-right"></i> </h1>
+
+<div class="row">
+
+    <div class="image">
+        <img src="about.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <h3>together we can save the planet</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus molestias corporis inventore soluta odio vero, dolor itaque illo eos. Velit, sequi libero animi debitis provident odit perferendis maxime repudiandae illo.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere omnis fugit corporis dignissimos saepe! Accusamus accusantium enim laudantium voluptatem ab?</p>
+        <a href="video1.mp4"><button class="btn">learn more</button></a>
+    </div>
+
+</div>
+
+
+</section>
+
+<!-- about section ends -->
+
+<!-- service section starts  -->
+
+<section class="service" id="service">
+
+<h1 class="heading"> <i class="fas fa-quote-left"></i> Our Services <i class="fas fa-quote-right"></i> </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <i class="fas fa-recycle"></i>
+        <h3>Recycle</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, nemo?</p>
+        <a href="#">read more>></a>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-recycle"></i>
+        <h3>Reuse</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, nemo?</p>
+        <a href="#">read more>></a>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-hand-holding-water"></i>
+        <h3>Reduce</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, nemo?</p>
+        <a href="#">read more>></a>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-tree"></i>
+        <h3>Earn</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, nemo?</p>
+        <a href="#">read more>></a>
+    </div>
+
+   
+
+</div>
+
+</section>
+
+<!-- service section ends -->
+
+
+<!-- contact section starts  -->
+
+<section class="donate" id="contact">
+
+<h1 class="heading"> <i class="fas fa-quote-left"></i> Contact Us <i class="fas fa-quote-right"></i> </h1>
+
+<div class="video-container">
+    <video src="video.mp4" loop autoplay muted></video>
+</div>
+
+<div class="form-container">
+
+    <form action="connect.php" method="post" onsubmit="return validateForm()">
+
+        <div class="inputBox">
+            <input type="text" placeholder="first name" name="fname" id="fname">
+            <input type="text" placeholder="last name" name="lname" id="lname">
+        </div>
+    
+        <div class="inputBox">
+            <input type="email" placeholder="enter your email" name="email" id="email">
+            <select name="type" id="type">
+                <option value="" selected disabled>--Select--</option>
+                <option value="Society">Society</option>
+                <option value="Office">Office</option>
+                <option value="Institution">Institutes</option>
+                <option value="Individual">Individual</option>
+            </select>
+        </div>
+    
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="message (optional)"></textarea>
+    
+        <input type="submit" class="btn">
+    
+    </form>
+    
+    <script>
+    function validateForm() {
+        var fname = document.getElementById("fname").value;
+        var lname = document.getElementById("lname").value;
+        var email = document.getElementById("email").value;
+        var type = document.getElementById("type").value;
+    
+        if (fname === "" || lname === "" || email === "" || type === "") {
+            alert("Please fill in all fields");
+            return false;
+        }
+
+        return true;
+    }
+    
+    </script>
+    
+
+</div>
+
+</section>
+
+<!-- contact section ends -->
+
+
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+<div class="box-container">
+
+    <div class="box">
+        <a href="#" class="logo"><i class="fas fa-seedling"></i>Trashify</a>
+        <p>It's very painful to get rid of obesity. Inventor, those pains of theirs are convenient for us. From, indeed. Him, the chosen one?</p>
+    </div>
+
+    <div class="box">
+        <h3 class="share">share</h3>
+        <a href="#">facebook</a>
+        <a href="#">twitter</a>
+        <a href="#">instagram</a>
+        <a href="#">github</a>
+    </div>
+
+    <div class="box">
+        <h3 class="letter">newsletter</h3>
+        <form action="">
+            <input type="email" placeholder="enter your email">
+            <button type="submit" class="fas fa-paper-plane"></button>
+        </form>
+    </div>
+
+</div>
+
+<h1 class="credit">created by <span>Team Monad</span> | all rights reserved. </h1>
+
+</section>
+
+<!-- footer section ends -->
+
+
+
+
+
+
+
+
+<script src="main.js"></script>
+
+</body>
+</html>
